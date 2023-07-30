@@ -1,0 +1,45 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+h2 {
+  font-size: 1.5rem;
+  color: rgb(16, 69, 184);
+}
+.input {
+  border-style: none;
+  border-bottom: 2px solid blue;
+  background: transparent;
+  min-width: 200px;
+  margin-bottom: 30px;
+  text-align: center;
+}
+
+#ul {
+  list-style-type: none;
+  max-width: 1200px;
+  margin: auto;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+#list {
+  max-width: 300px;
+  margin: 5px;
+  background-image: linear-gradient(
+    to bottom,
+    rgb(255, 245, 188),
+    rgb(175, 216, 255)
+  );
+  padding: 10px;
+  border: 2px solid black;
+  word-wrap: break-word;
+}
+
+button {
+  margin-left: 5px;
+}
